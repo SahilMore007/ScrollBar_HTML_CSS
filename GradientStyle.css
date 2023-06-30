@@ -1,0 +1,39 @@
+::-webkit-scrollbar
+{
+    width: 17px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: linear-gradient(transparent,#e7b1b1,#c07777,#af5b5b,#984747);
+    border-radius: 7px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(transparent,#9fdcd7,#61aaa4,#478983,#275b56);
+    border-radius: 7px;
+}
+.message-area{
+ background-color:  #ffffff;
+ background: linear-gradient(
+      to right bottom,
+      rgba(218, 240, 235, 0.7),
+      rgba(179, 154, 154, 0.3)
+    );
+ min-height: 600px;
+ border-radius:0 0 20px 0;
+}
+
+.message-table-scroll{
+    overflow-y: scroll;
+    height: 550px;
+}
+/*div*/
+div {
+  background-color: rgb(255, 255, 255);
+  width: 474px;
+  border: 15px ;
+  padding: 47px;
+  margin: 20px;
+  height: 147px;
+  position: static;
+}

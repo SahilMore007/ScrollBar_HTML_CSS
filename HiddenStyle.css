@@ -1,0 +1,23 @@
+::-webkit-scrollbar
+{
+    width: 17px;
+}
+.message-area1{
+ background-color:  #ffffff;
+ background: linear-gradient(
+      to right bottom,
+      rgba(218, 240, 235, 0.7),
+      rgba(179, 154, 154, 0.3)
+    );
+ min-height: 600px;
+ border-radius:0 0 20px 0;
+}
+
+.message-table-scroll1{
+    overflow-y: scroll;
+    height: 550px;
+}
+
+.message-table-scroll1::-webkit-scrollbar{
+    display: none;
+}

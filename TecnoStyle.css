@@ -1,0 +1,26 @@
+::-webkit-scrollbar 
+{
+    width: 17px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border: 4px solid #247a82;
+    box-shadow: inset 0 0 2.5px 2px rgba(218, 240, 235, 0.7);
+}
+
+.contact-area2{
+ background-color:  #ffffff;
+ background: linear-gradient(
+      to right bottom,
+      rgba(218, 240, 235, 0.7),
+      rgba(179, 154, 154, 0.3)
+    );
+ min-height: 600px;
+ border-radius:0 0 20px 0;
+}
+
+.contact-table-scroll2{
+    overflow-y:auto;
+    height: 550px;
+}
